@@ -71,6 +71,13 @@ section {
     align-items: center;
 }
 
+.button {
+	/*CONFIGURAR
+	border-radius: 50px;
+    -webkit-box-shadow: 10px 10px 14px 1px rgb(0 0 0 / 20%);
+    box-shadow: 10px 10px 14px 1pxrgba(00,00,00,0.2);*/
+}
+
 .section1 a {
 	display: flex;	
 	flex-direction: row;
@@ -147,6 +154,8 @@ section {
 	height: 70%;
 	margin: auto;
 	background-image: linear-gradient(to right top, #141414, #121212, #0f0f0f, #0b0c0c, #080908);
+	/*-webkit-box-shadow: 10px 10px 14px 1px rgb(0 0 0 / 20%);
+    box-shadow: 10px 10px 14px 1pxrgba(00,00,00,0.2);*/
 	
 }
 
