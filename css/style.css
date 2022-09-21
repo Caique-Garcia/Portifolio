@@ -29,7 +29,8 @@ a:visited {
 }
 
 a:hover {
-	opacity: 0.5;
+	cursor: pointer;
+	opacity: 0.7;
 }
 
 header {
@@ -72,10 +73,24 @@ section {
 }
 
 .button {
-	/*CONFIGURAR
+	
+	padding: 5px;
+	background-color: var(--cor-text-escuro);
+	/*background-image: linear-gradient(to right top, #232425, #4a4c4d, #767979, #a6a8a7, #d9dad7);*/
 	border-radius: 50px;
     -webkit-box-shadow: 10px 10px 14px 1px rgb(0 0 0 / 20%);
-    box-shadow: 10px 10px 14px 1pxrgba(00,00,00,0.2);*/
+    box-shadow: 10px 10px 14px 1pxrgba(00,00,00,0.2);
+    /*position: relative;
+    top: 0;
+    transition: top ease 0.5s;*/
+}
+span h3 {
+	color: var(--cor-fundo);
+}
+
+.button:hover {
+	
+	opacity: 0.8;
 }
 
 .section1 a {
@@ -85,7 +100,7 @@ section {
 }
 
 .section1 img {
-	margin-bottom: 10px;	
+	margin-bottom: 3px;	
 }
 
 .section1 span {
@@ -105,7 +120,7 @@ section {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-image: linear-gradient(to right top, #141414, #121212, #0f0f0f, #0b0c0c, #080908);
+	background: transparent;
 	border-radius: 0.5em;
 	text-align: center;
 	
