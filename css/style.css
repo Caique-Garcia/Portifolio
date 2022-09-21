@@ -5,10 +5,11 @@
 }
 
 :root{
-	--cor-fundo: #17191E;
+	--cor-fundo: #0d1117 /*#17191E*/;
 	--cor-text: #F8FAFD;
 	--cor-text-escuro: #CFD6E4;
 	--cor-fundo-claro:  #1E2028;
+	--color-header-bg: #161b22;
 	/*radial-gradient(circle, #a8a8a8, #808081, #5a5b5b, #363838, #171817);*/
 	--main-font: 'Manrope', Helvetica, sans-serif;	
 
@@ -34,14 +35,14 @@ a:hover {
 }
 
 header {
-	background-color: var(--cor-fundo);
+	background-color: var(--color-header-bg);
 	position: fixed;
 	margin-bottom: 20px;
 	width: 100%;
 	line-height: 40px;
 	height: 45px;
 	display: flex;
-	border-bottom: solid 1px var(--cor-text-escuro);
+	
 	flex-direction: row;
  	justify-content: space-between;
  	font-size: 1em;
